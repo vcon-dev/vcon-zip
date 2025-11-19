@@ -17,10 +17,16 @@ The vCon Zip Bundle format provides a standardized way to package one or more vC
 
 ## Installation
 
+### From PyPI
+
+```bash
+pip install vcon-zip
+```
+
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/vcon-zip.git
+git clone https://github.com/vcon-dev/vcon-zip.git
 cd vcon-zip
 pip install -e .
 ```
@@ -285,6 +291,6 @@ Implementation of the vCon Zip Bundle specification by the vCon working group.
 ## Support
 
 For issues, questions, or contributions:
-- GitHub Issues: https://github.com/yourusername/vcon-zip/issues
-- Documentation: https://vcon-zip.readthedocs.io/
+- GitHub Issues: https://github.com/vcon-dev/vcon-zip/issues
+- Documentation: https://github.com/vcon-dev/vcon-zip#readme
 
