@@ -1,0 +1,45 @@
+{
+  "vcon": "0.3.0",
+  "uuid": "01955450-1234-5678-9abc-def012345678",
+  "created_at": "2023-11-19T11:00:00Z",
+  "subject": "Support call with recording",
+  "parties": [
+    {
+      "tel": "+1-555-0300",
+      "name": "Customer"
+    },
+    {
+      "tel": "+1-555-0400",
+      "name": "Support Agent"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2023-11-19T11:00:00Z",
+      "duration": 600,
+      "parties": [0, 1],
+      "url": "https://example.com/recordings/call123.wav",
+      "content_hash": "sha512-ExampleHashValue123ABC",
+      "mimetype": "audio/wav"
+    }
+  ],
+  "attachments": [
+    {
+      "type": "document",
+      "url": "https://example.com/attachments/ticket.pdf",
+      "content_hash": "sha512-ExamplePDFHash456DEF",
+      "mimetype": "application/pdf"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "vendor": "ExampleTranscription",
+      "url": "https://example.com/transcripts/call123.json",
+      "content_hash": "sha512-ExampleTranscriptHash789GHI",
+      "mimetype": "application/json"
+    }
+  ]
+}
+

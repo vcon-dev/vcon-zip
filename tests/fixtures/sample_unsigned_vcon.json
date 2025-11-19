@@ -1,0 +1,29 @@
+{
+  "vcon": "0.3.0",
+  "uuid": "0195544a-b9b1-8ee4-b9a2-279e0d16bc46",
+  "created_at": "2023-11-19T10:30:00Z",
+  "updated_at": "2023-11-19T10:35:00Z",
+  "subject": "Sample phone call",
+  "parties": [
+    {
+      "tel": "+1-555-0100",
+      "name": "Alice"
+    },
+    {
+      "tel": "+1-555-0200",
+      "name": "Bob"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2023-11-19T10:30:00Z",
+      "duration": 300,
+      "parties": [0, 1],
+      "mimetype": "audio/wav"
+    }
+  ],
+  "attachments": [],
+  "analysis": []
+}
+
