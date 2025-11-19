@@ -22,18 +22,18 @@ classifiers = [
     "Topic :: Communications",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-
-[project.urls]
-Homepage = "https://github.com/vcon-dev/vcon-zip"
-Repository = "https://github.com/vcon-dev/vcon-zip"
-Issues = "https://github.com/vcon-dev/vcon-zip/issues"
-Documentation = "https://github.com/vcon-dev/vcon-zip#readme"
 dependencies = [
     "python-jose[cryptography]>=3.3.0",
     "cryptography>=41.0.0",
     "requests>=2.31.0",
     "click>=8.1.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/vcon-dev/vcon-zip"
+Repository = "https://github.com/vcon-dev/vcon-zip"
+Issues = "https://github.com/vcon-dev/vcon-zip/issues"
+Documentation = "https://github.com/vcon-dev/vcon-zip#readme"
 
 [project.optional-dependencies]
 dev = [
